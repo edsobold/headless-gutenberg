@@ -1,0 +1,30 @@
+{
+    "name": "sobold-docs",
+    "version": "1.0.0",
+    "description": "SoBold Docs",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start",
+      "prepare": "husky"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@commitlint/config-conventional": "^19.2.2",
+      "next": "^14.2.1",
+      "nextra": "^2.13.4",
+      "nextra-theme-docs": "^2.13.4",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "@commitlint/cli": "^19.2.2",
+      "@types/node": "^20.12.7",
+      "husky": "^9.0.11",
+      "sass": "^1.75.0",
+      "typescript": "^5.4.5"
+    }
+  }
